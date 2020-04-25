@@ -1,432 +1,124 @@
+<!DOCTYPE HTML>
+<!--
+	Full Motion by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Full Motion</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body id="top">
 
+			<!-- Banner -->
+			<!--
+				To use a video as your background, set data-video to the name of your video without
+				its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+				formats to work correctly.
+			-->
+				<section id="banner" data-video="images/banner">
+					<div class="inner">
+						<header>
+							<h1>Full Motion</h1>
+							<p>A responsive video gallery template with a functional lightbox<br />
+							designed by <a href="https://templated.co/">Templated</a> and released under the Creative Commons License.</p>
+						</header>
+						<a href="#main" class="more">Learn More</a>
+					</div>
+				</section>
 
+			<!-- Main -->
+				<div id="main">
+					<div class="inner">
 
-<!DOCTYPE html>
-<html lang="zh-Hant-TW">
-<head>
-    <meta charset="utf-8">
-    <title>資訊科技應用系(所)</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="IE =edge, chrome=1">
-    <link rel="stylesheet" href="/assets/Department/css/theme.css?v=29">
-    <link href="/assets/Department/css/all.css" rel="stylesheet"> <!--load all styles -->
-    <link href="/Content/fullcalendar.min.css" rel="stylesheet" />
-    <script defer src="/assets/Department/js/all.js"></script> <!--load all styles -->
-    <script type="text/javascript" src="/assets/Department/js/jquery-latest.min.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            var _showTab = 0;
-            var $defaultLi = $('ul.tabs li').eq(_showTab).addClass('active');
-            $($defaultLi.find('a').attr('href')).siblings().hide();
-            $('ul.tabs li').click(function () {
-                var $this = $(this),
-                    _clickTab = $this.find('a').attr('href');
-                $this.addClass('active').siblings('.active').removeClass('active');
-                $(_clickTab).stop(false, true).fadeIn().siblings().hide();
-                return false;
-            }).find('a').focus(function () {
-                this.blur();
-            });
-        });
-    </script>
-    <style>
-        .fc-view-container a {
-            color: #FFF !important;
-        }
+					<!-- Boxes -->
+						<div class="thumbnails">
 
-        .fc-center h2 {
-            font-size: 26px;
-            line-height: 0px;
-            padding-bottom: 0px;
-        }
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Nascetur nunc varius commodo</h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
 
-        .fc-today {
-            background: #F08301;
-            color: #FFFFFF;
-        }
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Nascetur nunc varius commodo</h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/s6zR2T9vn2c" class="button style2 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
 
-        .fc-prev-button {
-            background: #F08301;
-        }
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Nascetur nunc varius commodo</h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/s6zR2T9vn2c" class="button style3 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
 
-        .fc-next-button {
-            background: #F08301;
-        }
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Nascetur nunc varius commodo</h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/s6zR2T9vn2c" class="button style2 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
 
-        .fc-today-button {
-            background: #5AAAFF;
-        }
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Nascetur nunc varius commodo</h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/s6zR2T9vn2c" class="button style3 fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
 
-        .fc-today-button.disabled, .fc-today-button:disabled {
-            background: #5AAAFF;
-        }
+							<div class="box">
+								<a href="https://youtu.be/s6zR2T9vn2c" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+								<div class="inner">
+									<h3>Nascetur nunc varius commodo</h3>
+									<p>Interdum amet accumsan placerat commodo ut amet aliquam blandit nunc tempor lobortis nunc non. Mi accumsan.</p>
+									<a href="https://youtu.be/s6zR2T9vn2c" class="button fit" data-poptrox="youtube,800x400">Watch</a>
+								</div>
+							</div>
 
-        .fc-month-button {
-            background: #F08301;
-        }
+						</div>
 
-        .fc-basicWeek-button {
-            background: #F08301;
-        }
+					</div>
+				</div>
 
-        .fc-basicDay-button {
-            background: #F08301;
-        }
+			<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<h2>Etiam veroeros lorem</h2>
+						<p>Pellentesque eleifend malesuada efficitur. Curabitur volutpat dui mi, ac imperdiet dolor tincidunt nec. Ut erat lectus, dictum sit amet lectus a, aliquet rutrum mauris. Etiam nec lectus hendrerit, consectetur risus viverra, iaculis orci. Phasellus eu nibh ut mi luctus auctor. Donec sit amet dolor in diam feugiat venenatis. </p>
 
-        .fc-month-button:not(:disabled):not(.disabled).active {
-            background: #0062CC;
-        }
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>. Videos: <a href="http://coverr.co/">Coverr</a>.</p>
+					</div>
+				</footer>
 
-        .fc-basicWeek-button:not(:disabled):not(.disabled).active {
-            background: #0062CC;
-        }
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-        .fc-basicDay-button:not(:disabled):not(.disabled).active {
-            background: #0062CC;
-        }
-
-        @media (max-width: 768px) {
-            .hometitlediv {
-                top: 0px !important;
-            }
-
-            .adddivcol {
-                margin-bottom: 1rem !important;
-            }
-
-            .adddivrow {
-                margin-top: 0rem !important;
-            }
-
-            .adddivrowcontainer {
-                margin-top: 0px;
-            }
-        }
-    </style>
-</head>
-<body style="background:#000000;">
-    <div id="loader-wrapper" style="display:none;">
-        <div id="loader">
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-        </div>
-    </div>
-    <header>
-        <!-- tt-mobile menu -->
-        <nav class="panel-menu mobile-main-menu" style="z-index:99999;">
-            <ul>
-                        <li class="dropdown tt-megamenu-col-01">
-                                    <a href="https://it.hwu.edu.tw" >首頁</a>
-
-                        </li>
-                        <li class="dropdown tt-megamenu-col-01">
-                                    <a href="#">系所簡介</a>
-                            <div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=3429">系所簡介</a></li><li><a href="/Category?CId=3445">師資介紹</a><div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=3449">系主任</a></li><li><a href="/Category?CId=3450">副教授</a></li><li><a href="/Category?CId=3447">助理教授</a></li><li><a href="/Category?CId=3451">行政人員</a></li></ul></div></div></div></li><li><a href="/Category?CId=4326">粉絲專頁</a></li><li><a href="#">學生專區</a><div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=4344">系學會</a></li><li><a href="/Category?CId=4332">電競社</a></li></ul></div></div></div></li><li><a href="/Category?CId=4337">影音專區</a><div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=4340">3D列印</a></li><li><a href="/Category?CId=4341">互聯網</a></li><li><a href="/Category?CId=4343">空拍機</a></li></ul></div></div></div></li><li><a href="/Category?CId=3902">賽事專區</a></li></ul></div></div></div>
-                        </li>
-                        <li class="dropdown tt-megamenu-col-01">
-                                    <a href="/Category?CId=3431">招生訊息</a>
-                            <div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=4336">入學管道</a></li><li><a href="/Category?CId=4338">課程資訊</a></li><li><a href="http://line.hwu.edu.tw/Web/IntentionToStudy" target="_blank">就讀意願表</a> </li></ul></div></div></div>
-                        </li>
-                        <li class="dropdown tt-megamenu-col-01">
-                                    <a href="#">課程規劃</a>
-                            <div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=3433">課程規劃</a></li><li><a href="#">課程總表</a><div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=3454">日四技</a></li><li><a href="/Category?CId=3419">研究所</a></li><li><a href="/Category?CId=3455">國際專班</a></li></ul></div></div></div></li><li><a href="/Category?CId=3441">課程地圖</a></li><li><a href="/Category?CId=3432">教學設備</a></li><li><a href="/Category?CId=3443">證照認可列表</a></li></ul></div></div></div>
-                        </li>
-                        <li class="dropdown tt-megamenu-col-01">
-                                    <a href="/Category?CId=3444">國際產學合作專班</a>
-                            <div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=3465">課程規劃</a></li><li><a href="/Category?CId=3470">各學期課表</a></li><li><a href="/Category?CId=3428">導師資訊</a></li><li><a href="/Category?CId=3467">校園地圖</a></li><li><a href="/Category?CId=3471">重要須知</a></li><li><a href="/Category?CId=3468">交通安全宣導</a></li><li><a href="https://nisa.moe.gov.tw/" >教育部境外生輔導平台</a> </li><li><a href="/Category?CId=3469">活動花絮</a></li></ul></div></div></div>
-                        </li>
-                        <li class="dropdown tt-megamenu-col-01">
-                                    <a href="/Category?CId=3435">研究所專區</a>
-
-                        </li>
-                        <li class="dropdown tt-megamenu-col-01">
-                                    <a href="#">表單下載</a>
-                            <div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=3460">實習表單</a></li></ul></div></div></div>
-                        </li>
-                        <li class="dropdown tt-megamenu-col-01">
-                                    <a href="https://www.hwu.edu.tw/#" target=&quot;_blank&quot;>學校首頁</a>
-
-                        </li>
-                <li class="dropdown"></li>
-            </ul>
-            <div class="mm-navbtn-names">
-                <div class="mm-closebtn">Close</div>
-                <div class="mm-backbtn">Back</div>
-            </div>
-        </nav>
-        <!-- tt-mobile-header -->
-        <div class="tt-mobile-header">
-            <div class="container-fluid">
-                <div class="tt-header-row">
-                    <div class="tt-mobile-parent-menu">
-                        <div class="tt-menu-toggle">
-                            <i class="icon-03"></i>
-                        </div>
-                    </div>
-                    <!-- search -->
-                    <div class="tt-mobile-parent-search tt-parent-box"></div>
-                    <!-- /search -->
-                    <!-- cart -->
-                    <div class="tt-mobile-parent-cart tt-parent-box"></div>
-                    <!-- /cart -->
-                    <!-- account -->
-                    <div class="tt-mobile-parent-account tt-parent-box"></div>
-                    <!-- /account -->
-                    <!-- currency -->
-                    <div class="tt-mobile-parent-multi tt-parent-box"></div>
-                    <!-- /currency -->
-                </div>
-            </div>
-            <div class="container-fluid tt-top-line">
-                <div class="row">
-                    <div class="tt-logo-container">
-                        <!-- mobile logo -->
-                        <a class="tt-logo tt-logo-alignment" href="https://it.hwu.edu.tw"><img src="/assets/Department/images/custom/hwu_logo_new_white.gif" alt=""></a>
-                        <!-- /mobile logo -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- tt-desktop-header -->
-        <div class="tt-desktop-header tt-header-static">
-            <div class="tt-color-scheme-01" style="border:none; background:rgba(0,0,0,0); margin-top:30px;">
-                <div class="container-fluid" style="border: none;">
-                    <div class="tt-header-holder tt-bg-01">
-                        <div class="tt-obj-logo">
-                            <!-- logo -->
-                            <a class="tt-logo tt-logo-alignment" href="https://it.hwu.edu.tw"><img src="/assets/Department/images/custom/hwu_logo_new_white.gif" alt=""></a>
-                            <!-- /logo -->
-                        </div>
-                        <div class="tt-obj-menu">
-                            <div class="container">
-                                <div class="row justify-content-md-center">
-                                    <!-- tt-menu -->
-                                    <div class="tt-desctop-parent-menu tt-parent-box">
-                                        <div class="tt-desctop-menu">
-                                            <nav>
-                                                <ul>
-                                                            <li class="dropdown tt-megamenu-col-01">
-                                                                        <a href="https://it.hwu.edu.tw" >首頁</a>
-
-                                                            </li>
-                                                            <li class="dropdown tt-megamenu-col-01">
-                                                                        <a href="#">系所簡介</a>
-                                                                <div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=3429">系所簡介</a></li><li><a href="/Category?CId=3445">師資介紹</a><ul><li><a href="/Category?CId=3449">系主任</a></li><li><a href="/Category?CId=3450">副教授</a></li><li><a href="/Category?CId=3447">助理教授</a></li><li><a href="/Category?CId=3451">行政人員</a></li></ul></li><li><a href="/Category?CId=4326">粉絲專頁</a></li><li><a href="#">學生專區</a><ul><li><a href="/Category?CId=4344">系學會</a></li><li><a href="/Category?CId=4332">電競社</a></li></ul></li><li><a href="/Category?CId=4337">影音專區</a><ul><li><a href="/Category?CId=4340">3D列印</a></li><li><a href="/Category?CId=4341">互聯網</a></li><li><a href="/Category?CId=4343">空拍機</a></li></ul></li><li><a href="/Category?CId=3902">賽事專區</a></li></ul></div></div></div>
-                                                            </li>
-                                                            <li class="dropdown tt-megamenu-col-01">
-                                                                        <a href="/Category?CId=3431">招生訊息</a>
-                                                                <div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=4336">入學管道</a></li><li><a href="/Category?CId=4338">課程資訊</a></li><li><a href="http://line.hwu.edu.tw/Web/IntentionToStudy" target="_blank">就讀意願表</a> </li></ul></div></div></div>
-                                                            </li>
-                                                            <li class="dropdown tt-megamenu-col-01">
-                                                                        <a href="#">課程規劃</a>
-                                                                <div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=3433">課程規劃</a></li><li><a href="#">課程總表</a><ul><li><a href="/Category?CId=3454">日四技</a></li><li><a href="/Category?CId=3419">研究所</a></li><li><a href="/Category?CId=3455">國際專班</a></li></ul></li><li><a href="/Category?CId=3441">課程地圖</a></li><li><a href="/Category?CId=3432">教學設備</a></li><li><a href="/Category?CId=3443">證照認可列表</a></li></ul></div></div></div>
-                                                            </li>
-                                                            <li class="dropdown tt-megamenu-col-01">
-                                                                        <a href="/Category?CId=3444">國際產學合作專班</a>
-                                                                <div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=3465">課程規劃</a></li><li><a href="/Category?CId=3470">各學期課表</a></li><li><a href="/Category?CId=3428">導師資訊</a></li><li><a href="/Category?CId=3467">校園地圖</a></li><li><a href="/Category?CId=3471">重要須知</a></li><li><a href="/Category?CId=3468">交通安全宣導</a></li><li><a href="https://nisa.moe.gov.tw/" >教育部境外生輔導平台</a> </li><li><a href="/Category?CId=3469">活動花絮</a></li></ul></div></div></div>
-                                                            </li>
-                                                            <li class="dropdown tt-megamenu-col-01">
-                                                                        <a href="/Category?CId=3435">研究所專區</a>
-
-                                                            </li>
-                                                            <li class="dropdown tt-megamenu-col-01">
-                                                                        <a href="#">表單下載</a>
-                                                                <div class="dropdown-menu"><div class="row tt-col-list"><div class="col"><ul class="tt-megamenu-submenu"><li><a href="/Category?CId=3460">實習表單</a></li></ul></div></div></div>
-                                                            </li>
-                                                            <li class="dropdown tt-megamenu-col-01">
-                                                                        <a href="https://www.hwu.edu.tw/#" target=&quot;_blank&quot;>學校首頁</a>
-
-                                                            </li>
-                                                    <li class="dropdown"></li>
-                                                </ul>
-                                            </nav>
-                                        </div>
-                                    </div>
-                                    <!-- /tt-menu -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- stuck nav -->
-        <div class="tt-stuck-nav">
-            <div class="container">
-                <div class="tt-header-row">
-                    <div class="tt-stuck-parent-menu"></div>
-                    <div class="tt-stuck-parent-search tt-parent-box"></div>
-                    <div class="tt-stuck-parent-cart tt-parent-box"></div>
-                    <div class="tt-stuck-parent-account tt-parent-box"></div>
-                    <div class="tt-stuck-parent-multi tt-parent-box"></div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div id="tt-pageContent">
-        <div class="container-indent nomargin">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="slider-revolution revolution-default" style="min-height: 400px;">
-                        <div class="hometitlediv" style="top: 100px;">
-                            <span class="title3" style="font-size: 3em;">資訊科技應用系(所)</span>
-                            <span class="title3">DEPARTMENT OF APPLIED INFORMATION TECHNOLOGY</span>
-                            <br />
-                                <span class="newstitle" style="line-height: 22px;">賀！！資科系同學參加107年度全國雲端計算與服務專題成果競賽榮獲佳作</span>
-                                <span class="newsmain">賀！！
-
-資科系同學參加107年度全國雲端計算與服務專題成果競賽
-
-榮獲　佳作
-
-指導老師：卓世明
-
-學生：蔡明諺、李坤隆
-
-作品：客製化襪品訂購系統與人工智慧之人臉辨識應用
-
-
-
-指導老師：卓世明...</span>
-                                                            <div class="col-sm-12 col-md-12" style="margin-left:-10px;"><a href="/Category?CId=3472" class="btn">更多訊息<i class="fas fa-long-arrow-alt-right ico"></i></a></div>
-                        </div>
-                            <div class="tp-banner-container">
-                                <div class="tp-banner revolution">
-                                    <ul>
-                                                <li data-thumb="https://it.hwu.edu.tw/Upload/4ff1377c-1272-490a-8315-4aaab4a6e7db.jpg" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide" >
-                                                    <img src="https://it.hwu.edu.tw/Upload/4ff1377c-1272-490a-8315-4aaab4a6e7db.jpg" alt="slide1" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                                                </li>
-                                                <li data-thumb="https://it.hwu.edu.tw/Upload/0c2cb6bd-5b8b-472a-9beb-491bff8165b0.jpg" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide" >
-                                                    <img src="https://it.hwu.edu.tw/Upload/0c2cb6bd-5b8b-472a-9beb-491bff8165b0.jpg" alt="slide1" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                                                </li>
-                                                <li data-thumb="https://it.hwu.edu.tw/Upload/b6b39a11-6f49-4faf-b1de-69c05afd33d0.jpg" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide" >
-                                                    <img src="https://it.hwu.edu.tw/Upload/b6b39a11-6f49-4faf-b1de-69c05afd33d0.jpg" alt="slide1" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                                                </li>
-                                                <li data-thumb="https://it.hwu.edu.tw/Upload/fe0690c4-7744-4ae2-9785-a4979edcd614.jpg" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide" >
-                                                    <img src="https://it.hwu.edu.tw/Upload/fe0690c4-7744-4ae2-9785-a4979edcd614.jpg" alt="slide1" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                                                </li>
-                                                <li data-thumb="https://it.hwu.edu.tw/Upload/a129d689-ed75-4e51-b4ff-e71356651fb0.jpg" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide" >
-                                                    <img src="https://it.hwu.edu.tw/Upload/a129d689-ed75-4e51-b4ff-e71356651fb0.jpg" alt="slide1" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                                                </li>
-                                                <li data-thumb="https://it.hwu.edu.tw/Upload/e17069eb-d324-41ed-9af9-095d6f4005bb.jpg" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide" >
-                                                    <img src="https://it.hwu.edu.tw/Upload/e17069eb-d324-41ed-9af9-095d6f4005bb.jpg" alt="slide1" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                                                </li>
-                                                <li data-thumb="https://it.hwu.edu.tw/Upload/e7eec329-3865-4d11-ba29-60b440181c48.jpg" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide" >
-                                                    <img src="https://it.hwu.edu.tw/Upload/e7eec329-3865-4d11-ba29-60b440181c48.jpg" alt="slide1" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                                                </li>
-                                                <li data-thumb="https://it.hwu.edu.tw/Upload/617bd12a-9e65-4762-8dc3-10710eba950b.jpg" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide" >
-                                                    <img src="https://it.hwu.edu.tw/Upload/617bd12a-9e65-4762-8dc3-10710eba950b.jpg" alt="slide1" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                                                </li>
-                                                <li data-thumb="https://it.hwu.edu.tw/Upload/0faf7946-3dcb-4285-84c4-88a0740fd8d8.jpg" data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide" >
-                                                    <img src="https://it.hwu.edu.tw/Upload/0faf7946-3dcb-4285-84c4-88a0740fd8d8.jpg" alt="slide1" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
-                                                </li>
-                                    </ul>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                <div class="adddiv" style="z-index: 1;">
-                    <div class="container adddivrowcontainer">
-                        <div class="row">
-                                <div class="col-sm-12 col-md-4 adddivcol">
-                                    <a href="/Category?CId=3472">
-                                        <div class="txt_div" style="width: 100%;">
-                                            <div class="txt_ico"><i class="fas fa-chevron-right ico"></i></div>
-                                            <div class="txt_title">公告</div>
-                                            <div class="txt_main">更多文章...</div>
-                                        </div>
-                                        <img src="https://it.hwu.edu.tw/Upload/01f40910-3bcc-4fb4-b683-22b2ccf28de6.png" style="box-shadow:0px 0px 0px 3px #f8f2f4;" ; padding: 3px;">
-                                    </a>
-                                </div>
-                                                                                        <div class="col-sm-12 col-md-4 adddivcol">
-                                    <a href="/Category?CId=4336">
-                                        <div class="txt_div" style="width: 100%;">
-                                            <div class="txt_ico"><i class="fas fa-chevron-right ico"></i></div>
-                                            <div class="txt_title">入學管道</div>
-                                            <div class="txt_main">更多文章...</div>
-                                        </div>
-                                        <img src="https://it.hwu.edu.tw/Upload/4c28e6c4-0b1e-49f0-a609-48f2188668d0.png" style="box-shadow:0px 0px 0px 3px #f8f2f4;" ; padding: 3px;">
-                                    </a>
-                                </div>
-                                                                                        <div class="col-sm-12 col-md-4 adddivcol">
-                                    <a href="/Category?CId=4326">
-                                        <div class="txt_div" style="width: 100%;">
-                                            <div class="txt_ico"><i class="fas fa-chevron-right ico"></i></div>
-                                            <div class="txt_title">粉絲專頁</div>
-                                            <div class="txt_main">更多文章...</div>
-                                        </div>
-                                        <img src="https://it.hwu.edu.tw/Upload/a66d0ce3-dd7d-48e9-a2ca-710ee4c1d677.png" style="box-shadow:0px 0px 0px 3px #f8f2f4;" ; padding: 3px;">
-                                    </a>
-                                </div>
-                                                    </div>
-                        <div class="row mt-3 adddivrow">
-                                                                                                                                                                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--<a href="#" class="tt-back-to-top">BACK TO TOP</a>-->
-
-    <script src="/assets/Department/external/jquery/jquery.min.js"></script>
-    <script src="/assets/Department/external/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/assets/Department/external/bootstrap-datepicker/bootstrap-datepicker.js"></script>
-    <script src="/assets/Department/external/slick/slick.min.js"></script>
-    <script src="/assets/Department/external/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    <script src="/assets/Department/external/panelmenu/panelmenu.js"></script>
-    <script src="/assets/Department/external/instafeed/instafeed.min.js"></script>
-    <script src="/assets/Department/external/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="/assets/Department/external/rs-plugin/js/jquery.themepunch.revolution.js"></script>
-    <script src="/assets/Department/external/countdown/jquery.plugin.min.js"></script>
-    <script src="/assets/Department/external/countdown/jquery.countdown.min.js"></script>
-    <script src="/assets/Department/external/lazyLoad/lazyload.min.js"></script>
-    <script src="/assets/Department/js/main.js?v=2"></script>
-    <script src="/Scripts/moment.min.js"></script>
-    <script src="/Scripts/moment-with-locales.min.js"></script>
-    <script src="/Scripts/fullcalendar/fullcalendar.js"></script>
-    <script src="/Scripts/fullcalendar/locale/zh-tw.js"></script>
-    <link href="/Content/sweetalert2.min.css" rel="stylesheet" />
-    <script src="/Scripts/sweetalert2.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".banner-li").click(function () {
-                if ($(this).data("href") != "#") {
-                    window.open($(this).data("href"), "_blank");
-                }
-            });
-
-            if ($("#calendar").length > 0) {
-                $("#calendar").fullCalendar({
-                    header: {
-                        left: "prev next today",
-                        center: "title",
-                        right: "month basicWeek basicDay"
-                    },
-                    themeSystem: "bootstrap4",
-                    titleFormat: "",
-                    defaultDate: "2020-04-21",
-                    weekends: true,
-                    editable: false,
-                    events: jQuery.parseJSON(''),
-                    eventClick: function (event) {
-                        Swal.fire({
-                            title: event.title,
-                            text: event.description
-                        });
-                    }
-                });
-            }
-        });
-    </script>
-</body>
+	</body>
 </html>
