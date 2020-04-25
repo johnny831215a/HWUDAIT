@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+    <a-asset-item id="crate-obj" src="pikachu.obj"></a-asset-item>
+    <a-asset-item id="crate-mtl" src="pikachu.mtl"></a-asset-item>
+  </a-assets>
+
+  <!-- Using the asset management system. -->
+  <a-obj-model position="-1 0.5 -3"  src="#crate-obj" mtl="#crate-mtl"></a-obj-model>
+    </a-scene>
+    <script>
+  var s1 = document.getElementsByTagName("a-scene");
+  var i,j;
+  for (i=0; i<5; i++)
+  for (j=0; j<5; j++)
+  {
+  var p1 = document.createElement("a-obj-model");
+  p1.setAttribute("position", (-5 + i*2) + " " + (-5 + j*2) + " -3");
+  p1.setAttribute("src", "#crate-obj");
+  p1.setAttribute("mtl", "#crate-mtl");
+  s1[0].appendChild(p1);
+  }
+
+  </script>
+  </body>
+</html>
