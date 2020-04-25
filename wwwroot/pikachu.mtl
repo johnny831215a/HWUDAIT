@@ -1,0 +1,28 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl _auto_
+Ka 0.000000 0.000000 0.000000
+Kd 0.843137 0.764706 0.419608
+Ks 0.330000 0.330000 0.330000
+map_Kd pikachu/_auto_.png
+
+newmtl _auto_2
+Ka 0.000000 0.000000 0.000000
+Kd 0.827451 0.709804 0.423529
+Ks 0.330000 0.330000 0.330000
+map_Kd pikachu/_auto_2.png
+
+newmtl _auto_3
+Ka 0.000000 0.000000 0.000000
+Kd 0.796078 0.494118 0.274510
+Ks 0.330000 0.330000 0.330000
+map_Kd pikachu/_auto_3.png
+
+newmtl _auto_4
+Ka 0.000000 0.000000 0.000000
+Kd 0.831373 0.643137 0.360784
+Ks 0.330000 0.330000 0.330000
+map_Kd pikachu/_auto_4.png
+
